@@ -1,9 +1,127 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstname": "Jevgenijs",
+      "lastname": "Ostanins",
+      "email": "ostaninzena@gmail.com",
+      "password": "safAdsag",
+      "gender": "male",
+      "placetolive": "latvija",
+      "id": 2
+    },
+    {
+      "firstname": "Just",
+      "lastname": "Human",
+      "email": "some@esasjklf",
+      "password": "safAdsag",
+      "gender": "male",
+      "placetolive": "estonija",
+      "id": 3
+    },
+    {
+      "firstname": "Jevgenijs",
+      "lastname": "Ostanins",
+      "email": "ostaninzena@gmail.com",
+      "password": "alhdfaugdak",
+      "gender": "male",
+      "placetolive": "latvija",
+      "id": 4
+    },
+    {
+      "firstname": "Jevgenijs",
+      "lastname": "Ostanins",
+      "email": "ostaninzena@gmail.com",
+      "password": "alhdfaugdak",
+      "gender": "male",
+      "placetolive": "latvija",
+      "id": 5
+    },
+    {
+      "firstname": "Jevgenijs",
+      "lastname": "Ostanins",
+      "email": "ostaninzena@gmail.com",
+      "password": "alhdfaugdak",
+      "gender": "male",
+      "placetolive": "latvija",
+      "id": 6
+    },
+    {
+      "firstname": "ajskahjv",
+      "lastname": "sda,jbfgbajhbd",
+      "email": "adsjb@sjdha",
+      "password": "dagakdglaaa",
+      "gender": "male",
+      "placetolive": "estonija",
+      "id": 7
+    },
+    {
+      "firstname": "ajskahjv",
+      "lastname": "sda,jbfgbajhbd",
+      "email": "adsjb@sjdha",
+      "password": "dagakdglaaa",
+      "gender": "male",
+      "placetolive": "estonija",
+      "id": 8
+    },
+    {
+      "firstname": "asfas",
+      "lastname": "sdfgds",
+      "email": "adsg@asf",
+      "password": "sdgasga",
+      "gender": "male",
+      "placetolive": "lithunija",
+      "id": 9
+    },
+    {
+      "firstname": "asfas",
+      "lastname": "sdfgds",
+      "email": "adsg@asf",
+      "password": "sdgasga",
+      "gender": "male",
+      "placetolive": "lithunija",
+      "id": 10
+    },
+    {
+      "firstname": "safdadss",
+      "lastname": "adfadfa",
+      "email": "as@afadfad",
+      "password": "adgadgad",
+      "gender": "female",
+      "placetolive": "estonija",
+      "id": 11
+    },
+    {
+      "firstname": "safdadss",
+      "lastname": "adfadfa",
+      "email": "as@afadfad",
+      "password": "adgadgad",
+      "gender": "female",
+      "placetolive": "estonija",
+      "id": 12
+    },
+    {
+      "firstname": "safdadss",
+      "lastname": "adfadfa",
+      "email": "as@afadfad",
+      "password": "adgadgad",
+      "gender": "female",
+      "placetolive": "estonija",
+      "id": 13
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
