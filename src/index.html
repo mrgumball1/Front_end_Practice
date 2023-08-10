@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="heading">
+        Registration form
+    </h1>
+    <div>
+        <form class="form">
+            <div class="input-container1">
+                <div class="input">
+                    <label for="firstname">First name</label> <br>
+                    <input type="text" id="firstname" placeholder="Your name" required>
+                </div>
+                <div class="input">
+                    <label for="lastname">Last name</label> <br>
+                    <input type="text" id="lastname" placeholder="Your lastname" required>
+                </div>
+            </div>
+            <div class="input-container2">
+                <div class="input">
+                    <label for="email">E-mail</label> <br>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="input">
+                    <label for="password">Password</label> <br>
+                    <input type="password" id="password" placeholder="Your password" required>
+                </div>
+            </div>
+            <div class="gender">
+                <label>
+                    Gender <br>
+                    <input type="radio" name="gender" value="male" required>
+                    Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" required>
+                    Female
+                </label>
+            </div>
+            <div class="placetolive">
+                <label for="placetolive">
+                    Where do you live
+                </label>
+                <select name="placetolive" id="placetolive" required>
+                    <option value="" disabled selected>-- Chose your country</option>
+                    <option value="latvija">Latvija</option>
+                    <option value="estonija">Estonija</option>
+                    <option value="lithunija">Lithunija</option>
+
+                </select>
+            </div>
+            <br>
+            <label>
+                <input type="checkbox" required>
+                I have agreed to <a href="#">terms and conditions.</a>
+            </label>
+            <br>
+            <div class="submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
